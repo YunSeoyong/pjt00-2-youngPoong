@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>영풍문고_searchDetail</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/sub1.css">
+</head>
+<body>
+    <div id="wrap">
+        <header id="header">
+            <div class="hd_top">
+                <div class="ht_in">
+                    <div class="utill_pc">
+                        <ul>
+                            <li><a href="">회원가입</a></li>
+                            <li><a href="">로그인</a></li>
+                            <li><a href="">장바구니</a></li>
+                            <li><a href="">주문&#47;배송조회</a></li>
+                            <li><a href="">고객센터</a></li>
+                        </ul>
+                    </div> 
+                </div>
+            </div>
+            <div class="hd_middle">
+                <div class="hm_in">
+                    <h1 class="h_logo"><a href="../index.html">영풍문고</a></h1>
+                    <div class="h_search_pc"> 
+                        <form action="">
+                            <button class="hs_select">통합검색</button>
+                            <input type="text" id="hSearch" name="hSearch" placeholder="검색어를 입력해 주세요">
+                            <button class="hs_btn">검색하기</button>
+                        </form>
+                        <p class="hs_detail"><a href="searchDetail.html">상세검색</a></p>
+                    </div>
+                    <div class="h_bn"><a href=""> 
+                        <p class="hbn_photo"><img src="../img/EVENT1.jpg" alt="소원성취 더 신비단풍 혜택이 필요해"></p>
+                    </a></div>
+                    <div class="utill_mo">
+                        <ul>
+                            <li class="goSearch"><a href="searchDetail.html">검색하기</a></li>
+                            <li class="goMypage"><a href="">마이페이지</a></li>
+                            <li class="goDelivery"><a href="">배송조회</a></li>
+                            <li class="goCart"><a href="">장바구니</a></li>
+                            <li class="btnMenu"><a href="">메뉴</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="hd_bottom">
+                <div class="hb_in">
+                    <nav class="gnb">
+                        <ul>
+                            <li class="best"><a href="../index.html">베스트</a></li>
+                            <li><a href="">신간</a></li>
+                            <li><a href="">국내도서</a></li>
+                            <li><a href="">외국도서</a></li>
+                            <li><a href="">이벤트</a></li>
+                            <li><a href="">기획&#47;테마</a></li>
+                            <li><a href="">문화행사</a></li>
+                        </ul>
+                    </nav>
+                    <div class="hb_right">
+                        <ul>
+                            <li><a href="">기프티콘</a></li>
+                            <li><a href="">회원혜택</a></li>
+                            <li><a href="">출석체크</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main id="container">
+            <div class="cont_in">
+                <section id="searchArea">
+                    <div class="titleBox">
+                        <h2 class="mainTitle">상세 검색</h2>
+                        <div class="siteMap">
+                            <ul>
+                                <li class="goHome"><a href="../index.html">홈</a></li>
+                                <li class="goSearchDetail"><a href="searchDetail.html">상세검색</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="shInput1">
+                        <form action="">
+                            <p class="inCate">통합검색</p>
+                            <input type="text" id="sh1" placeholder="검색어를 입력하세요">
+                            <button class="siBtn">검색하기</button>
+                        </form>
+                    </div>
+                    <section id="sh2">
+                        <form action="">
+                            <fieldset>
+                                <label for="bookName">도서명</label>
+                                <input type="text" id="bookName" placeholder="도서명 입력">
+                            </fieldset>
+                            <fieldset>
+                                <label for="author">저자·역자</label>
+                                <input type="text" id="author" placeholder="저자 혹은 역자 입력">
+                            </fieldset>
+                            <fieldset>
+                                <label for="publisher">출판사</label>
+                                <input type="text" id="publisher" placeholder="출판사 입력">
+                            </fieldset>
+                            <fieldset>
+                                <label for="publisher">키워드</label>
+                                <input type="text" id="publisher" placeholder="키워드 입력">
+                            </fieldset>
+                        </form>
+                    </section>
+                    <section id="shIndex">
+                        <div class="nation indexBox">
+                            <h3 class="indexName">국가·언어</h3>
+                            <div class="indexBtn">
+                                <button class="on">국내도서</button>
+                                <button>해외도서</button>
+                                <button>영문도서</button>
+                                <button>일문도서</button>
+                                <button>기타언어</button>
+                            </div>
+                        </div>
+                        <div class="genre indexBox">
+                            <h3 class="indexName">장르</h3>
+                            <div class="indexBtn">
+                                <button>사전</button>
+                                <button class="on">문학</button>
+                                <button>학습</button>
+                                <button>아동</button>
+                                <button>취미&#47;실용</button>
+                                <button class="on">예체능</button>
+                                <button>종교</button>
+                                <button>잡지</button>
+                                <button>정치&#47;법률</button>
+                                <button>경제&#47;경영</button>
+                                <button>인문</button>
+                                <button>외국어</button>
+                                <button>정부간행물</button>
+                                <button>컴퓨터</button>
+                                <button>공학</button>
+                                <button>자연</button>
+                                <button>의학</button>
+                                <button>수험서</button>
+                            </div>
+                        </div>
+                        <div class="literIndex indexBox">
+                            <h3 class="indexName">문학</h3>
+                            <div class="indexBtn">
+                                <button>시</button>
+                                <button class="on">국내소설</button>
+                                <button class="on">외국소설</button>
+                                <button>대하&#47;역사</button>
+                                <button>무협소설</button>
+                                <button>추리소설</button>
+                                <button class="on">수필</button>
+                                <button>논픽션&#47;유머</button>
+                                <button>청소년</button>
+                                <button>문고&#47;전집</button>
+                                <button>만화</button>
+                            </div>
+                        </div>
+                        <div class="enterIndex indexBox">
+                            <h3 class="indexName">예체능</h3>
+                            <div class="indexBtn">
+                                <button>예술일반</button>
+                                <button class="on">미술</button>
+                                <button>디자인</button>
+                                <button>음악</button>
+                                <button>악보</button>
+                                <button>연극&#47;영화</button>
+                                <button class="on">체육&#47;무용</button>
+                                <button>사진</button>
+                            </div>
+                        </div>
+                    </section>
+                    <div class="searchBtn">
+                        <p class="searchReset">초기화</p>
+                        <p class="searchSubmit">검색</p>
+                    </div>
+                </section>
+                <section id="recomendArea">
+                    <div class="titleBox">
+                        <h2 class="mainTitle">추천 도서</h2>
+                    </div>
+                    <div class="obRankList">
+                        <ul>
+                            <li>
+                                <div class="bookCon">
+                                    <div class="bookPhoto">
+                                        <div class="bookCover">
+                                            <p class="bPhoto"><a href=""><img src="../img/book04.jpg" alt="그대들, 어떻게 살 것인가"></a></p>
+                                        </div>                                    </div>
+                                    <div class="bookInfo">
+                                        <div class="biInfobox">
+                                            <div class="biMark">
+                                                <span class="mark">소득공제</span>
+                                                <span class="mark">무료배송</span>
+                                            </div>
+                                            <p class="bkTitle"><a href="">그대들, 어떻게 살 것인가</a></p>
+                                            <p class="biSub">
+                                                <span class="author"><a href="">요시노겐자부로</a></span> / <span class="publisher"><a href="">양철북</a></span>
+                                            </p>
+                                        </div>
+                                        <div class="biPrice">
+                                            <p class="bkPrice">
+                                                <span class="sale"><span class="num">10</span>&#37;</span> 
+                                                <span class="price"><span class="num">10,800</span>원</span>
+                                                <span class="origin">&#40;<span class="num">12,000</span>원&#41;</span>
+                                            </p>
+                                            <p class="bkAccumulated">
+                                                적립금 : <span class="price">600</span>원 &#40;<span class="percent">5</span>&#37;&#41;
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="bookCon">
+                                    <div class="bookPhoto">
+                                        <div class="bookCover">
+                                            <p class="bPhoto"><a href=""><img src="../img/book05.jpg" alt="고양이 해결사 깜냥 6 - 하품이의 가족을 찾아라"></a></p>
+                                        </div>                                    </div>
+                                    <div class="bookInfo">
+                                        <div class="biInfobox">
+                                            <div class="biMark">
+                                                <span class="mark">소득공제</span>
+                                                <span class="mark">무료배송</span>
+                                            </div>
+                                            <p class="bkTitle"><a href="">고양이 해결사 깜냥 6 - 하품이의 가족을 찾아라</a></p>
+                                            <p class="biSub">
+                                                <span class="author"><a href="">홍민정</a></span> / <span class="publisher"><a href="">창비</a></span>
+                                            </p>
+                                        </div>
+                                        <div class="biPrice">
+                                            <p class="bkPrice">
+                                                <span class="sale"><span class="num">10</span>&#37;</span> 
+                                                <span class="price"><span class="num">10,800</span>원</span>
+                                                <span class="origin">&#40;<span class="num">12,000</span>원&#41;</span>
+                                            </p>
+                                            <p class="bkAccumulated">
+                                                적립금 : <span class="price">600</span>원 &#40;<span class="percent">5</span>&#37;&#41;
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="bookCon">
+                                    <div class="bookPhoto">
+                                        <div class="bookCover">
+                                            <p class="bPhoto"><a href=""><img src="../img/book06.jpg" alt="마흔에 읽는 쇼펜하우어 - 마음의 위기를 다스리는 철학 수업"></a></p>
+                                        </div>
+                                        <div class="bkBtn mo_none">
+                                    </div>
+                                    <div class="bookInfo">
+                                        <div class="biInfobox">
+                                            <div class="biMark">
+                                                <span class="mark">소득공제</span>
+                                                <span class="mark">무료배송</span>
+                                            </div>
+                                            <p class="bkTitle"><a href="">마흔에 읽는 쇼펜하우어 - 마음의 위기를 다스리는 철학 수업</a></p>
+                                            <p class="biSub">
+                                                <span class="author"><a href="">강용수</a></span> / <span class="publisher"><a href="">유노북스</a></span>
+                                            </p>
+                                        </div>
+                                        <div class="biPrice">
+                                            <p class="bkPrice">
+                                                <span class="sale"><span class="num">10</span>&#37;</span> 
+                                                <span class="price"><span class="num">15,300</span>원</span>
+                                                <span class="origin">&#40;<span class="num">17,000</span>원&#41;</span>
+                                            </p>
+                                            <p class="bkAccumulated">
+                                                적립금 : <span class="price">850</span>원 &#40;<span class="percent">5</span>&#37;&#41;
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="bookCon">
+                                    <div class="bookPhoto">
+                                        <div class="bookCover">
+                                            <p class="bPhoto"><a href=""><img src="../img/book07.jpg" alt="퓨처 셀프 - 현재와 미래가 달라지는 놀라운 혁명"></a></p>
+                                        </div>
+                                    </div>
+                                    <div class="bookInfo">
+                                        <div class="biInfobox">
+                                            <div class="biMark">
+                                                <span class="mark">소득공제</span>
+                                                <span class="mark">무료배송</span>
+                                            </div>
+                                            <p class="bkTitle"><a href="">퓨처 셀프 - 현재와 미래가 달라지는 놀라운 혁명</a></p>
+                                            <p class="biSub">
+                                                <span class="author"><a href="">벤저민 하디</a></span> / <span class="publisher"><a href="">상상스퀘어</a></span>
+                                            </p>
+                                        </div>
+                                        <div class="biPrice">
+                                            <p class="bkPrice">
+                                                <span class="sale"><span class="num">10</span>&#37;</span> 
+                                                <span class="price"><span class="num">17,820</span>원</span>
+                                                <span class="origin">&#40;<span class="num">19,800</span>원&#41;</span>
+                                            </p>
+                                            <p class="bkAccumulated">
+                                                적립금 : <span class="price">990</span>원 &#40;<span class="percent">5</span>&#37;&#41;
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>    
+                </section>
+            </div>
+        </main>
+        <footer id="footer">
+            <div class="ft_in">
+                <div class="ft1">
+                    <h1 class="f_logo">영풍문고</h1>
+                    <div class="info_list">
+                        <ul>
+                            <li class="on"><a href="">회사소개</a></li>
+                            <li><a href="">광고안내</a></li>
+                            <li><a href="">입점문의</a></li>
+                            <li><a href="">청약철회</a></li>
+                            <li><a href="">청소년보호정책</a></li>
+                            <li><a href="">이용약관</a></li>
+                            <li class="bold"><a href="">개인정보처리방침</a></li>
+                            <li><a href="">영상정보관리방침</a></li>
+                            <li><a href="">이메일 무단 수집거부</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="ft2">
+                    <div class="textBox">
+                        <p class="tb1">
+                            회사명 : ㈜ 영풍문고 ㅣ 대표이사 : 김경환<br>
+                        소재지 : 서울특별시 종로구 청계천로 41 &#40;우&#41;03188<br>
+                        사업자 등록번호 : 773-86-01800 ㅣ 통신판매업 신고번호 : 2023-서울종로-0130 &#91; <a href="">사업자정보확인</a> &#93;<br>
+                        개인정보관리 책임자 : 조순제 ㅣ <a href="">customer@ypbooks.co.kr</a> ㅣ 대량주문 : <a href="">webmaster@ypbooks.co.kr</a><br>
+                        </p>
+                        <p class="tb2">
+                            COPYRIGHT &#169; YOUNGPOONG BOOKSTORE INC. ALL RIGHTS RESERVED.
+                        </p>
+                    </div>
+                    <div class="f2Right">
+                        <div class="scm"><a href="">
+                            출판사용 통합관리 시스템<br>
+                            <span class="bold">SCM</span> 
+                        </a></div>
+                        <div class="infoCenter">
+                            고객센터<br>
+                            <span class="bold">1544-9020</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>    
+    </div>
+</body>
+</html>
